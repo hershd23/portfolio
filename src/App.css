@@ -43,3 +43,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  align-content: center;
+}
+.social-links i {
+  color: black;
+  font-size: 10em;
+  padding: 20px;
+  margin: 20px, 0px;
+}

@@ -6,11 +6,11 @@ import Col from 'react-bootstrap/Col';
 function Footer() {
 
 	return(
-		<footer className="mt-5">
+		<footer >
 			<Container fluid = {true}>
 				<Row className="border-top justify-content-between p-3">
 					<Col className = "p-0" md={3} sm={12}>
-							To copy the template click here
+							To copy the template click<a href="https://github.com/hershd23/portfolio" rel="noopener noreferrer" target="_blank"> here</a>
 					</Col>
 					<Col className = "p-0 d-flex justify-content-end " md = {5}>
 							Made using ReactJS by Hersh Dhillon.

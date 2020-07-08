@@ -37,11 +37,12 @@ class App extends React.Component {
         text : 'Have a look at my projects. Click on a card to reveal more information.'
       },
       skills:{
-        title: 'Skills',
-        text : 'A pretty dynamic list of my skills. Will grow as I keep learning!'
+        title: 'Skills and Achievements',
+        text : 'A pretty dynamic list of my skills and achievements. Will grow as I keep learning!'
       },
       contact:{
-        title: 'Lets talk'
+        title: 'Socials',
+        text : 'Here are the places to find me or my work. Reach out to me for opportunities or all things tech, sports or politics!'
       }
     }
   }
@@ -103,11 +104,11 @@ class App extends React.Component {
             </Col>
             <Col sm = {8}>
             <Content>
-                <p>Hi I am a pre-final year undergraduate at Indian Institute of Technology(IIT) Ropar</p>
+                <p>Hi, I am Hersh. I am interested in all things tech, sports and politics. I am currently exploring developing mobile applications in flutter and AI in sports. Here is a summary of my experience and POR's</p>
                 <b>Work Experience</b>
                   <ul>
                     <li>Software Engineering Intern :- <b>D.E. Shaw and Co (Apr-May 2020)</b></li>
-                    <li>Research Intern :- <b>IIT Kharagpur (May-Jun 2019)</b></li>
+                    <li>Research Intern (NLP) :- <b>IIT Kharagpur (May-Jun 2019)</b></li>
                   </ul>
 
                 <b>Positions of Responsibility</b>
@@ -127,17 +128,67 @@ class App extends React.Component {
           <div id = "skills">
             <Container fluid = {true}>
               <Hero title = {this.state.skills.title} text = {this.state.skills.text}/>
+
+              <Row>
+
+							<Col sm = {6}>
+							<center>
+							<h3> Skills </h3>
+							</center>
+              <Content>
+                <p><b>Programming Languages :- </b> C, C++, Java, JavaScript, Python, Dart</p>
+                <p><b>Frameworks and Libraries :- </b>Pytorch, Tensorflow, ReactJS,  Django, Pandas, Numpy, Scipy, Sklearn, Matplotlib, OpenFace, Keras, Fast-Ai </p>
+                <br />
+              </Content>
+
+							</Col>
+
+							<Col sm = {6}>
+							<center>
+							<h3> Achievements </h3>
+							</center>
+              <Content>
+                <p><b>JEE Advanced 2017 :- </b> All India Rank 1760 (1.3 million candidates)</p>
+                <p><b>KVPY 2017 :- </b> All India Rank 232 (0.3 million candidates)</p>
+                <p><b>Flipkart Grid Challenge :- </b> Rank 121 out of 6700 teams</p>
+                <p><b>Debating :- </b> Novice Finalist at SRCC annual debate, Three breaks as an adjudicator (Classify as A-level)</p>
+              </Content>
+
+							</Col>
+              
+              </Row>
             </Container>
           </div>
 
           <div id = "contact">
             <Container fluid = {true} className = "bg-light">
-              <Hero title = {this.state.contact.title} />
+              <Hero title = {this.state.contact.title} text = {this.state.contact.text} />
+							<div className = "social-links">
+								<center>
+									<a href="https://www.linkedin.com/in/hersh-dhillon/" rel="noopener noreferrer" target="_blank">
+											<i className="fa fa-linkedin-square"  aria-hidden="true"/>
+									</a>
+								
+									<a href="mailto:hershdhillon23@gmail.com" rel="noopener noreferrer" target="_blank">
+											<i className="fa fa-envelope-square"  aria-hidden="true"/>
+									</a>
+
+									<a href="https://github.com/hershd23" rel="noopener noreferrer" target="_blank">
+										<i class="fa fa-github-square" aria-hidden="true"></i>
+									</a>
+
+									<a href="https://twitter.com/DhillonHersh" rel="noopener noreferrer" target="_blank">
+										<i class="fa fa-twitter-square" aria-hidden="true"></i>
+									</a>
+
+								</center>
+							</div>
+							<Container fluid={true} className = "py-4"></Container>
             </Container>
           </div>
 
 
-          <Footer />
+      	  <Footer />
 
         </Container>
       </Router>
