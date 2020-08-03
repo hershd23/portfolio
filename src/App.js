@@ -27,7 +27,7 @@ class App extends React.Component {
         pretitle: 'Hi, I am',
         title: 'Hersh Dhillon,',
         subTitle: 'a Pre-final year Computer Science undergraduate at IIT Ropar',
-        text: "I know Deep Learning, Computer Vision, Natural Language Processing, Web and Mobile app development. I write and speak too!"
+        text: "I know Deep Learning, Computer Vision, Natural Language Processing, Web and Mobile app development. I am a blog writer and a public speaker too!"
       },
       about:{
         title: 'About Me'
@@ -163,14 +163,18 @@ class App extends React.Component {
           <div id = "contact">
             <Container fluid = {true} className = "bg-light">
               <Hero title = {this.state.contact.title} text = {this.state.contact.text} />
+              
+              
 							<div className = "social-links">
 								<center>
+                  <h4> 
+                    <b>Email:- </b>
+                    <a href="mailto:hershdhillon23@gmail.com" rel="noopener noreferrer" target="_blank">
+                      hershdhillon23@gmail.com 
+                    </a>
+                  </h4>
 									<a href="https://www.linkedin.com/in/hersh-dhillon/" rel="noopener noreferrer" target="_blank">
 											<i className="fa fa-linkedin-square"  aria-hidden="true"/>
-									</a>
-								
-									<a href="mailto:hershdhillon23@gmail.com" rel="noopener noreferrer" target="_blank">
-											<i className="fa fa-envelope-square"  aria-hidden="true"/>
 									</a>
 
 									<a href="https://github.com/hershd23" rel="noopener noreferrer" target="_blank">
