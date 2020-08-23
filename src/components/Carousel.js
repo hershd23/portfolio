@@ -10,6 +10,7 @@ import can from '../assets/images/can.png';
 import obj from '../assets/images/obj.png';
 import risc from '../assets/images/risc.jpg';
 import bow from '../assets/images/bow.png';
+import map from '../assets/images/map.jpeg'
 
 class Carousel extends React.Component {
 
@@ -23,6 +24,14 @@ class Carousel extends React.Component {
 								subTitle: 'Paper submitted in ICMI 2020',
 								imgSrc: cjh,
 								link: 'https://arxiv.org/pdf/2006.12041.pdf',
+								selected: true
+							},
+							{
+								id: 5,
+								title: 'CoronaMap',
+								subTitle: 'Live cornavirus visualizations',
+								imgSrc: map,
+								link: 'https://hershd23.github.io/CoronaMap/',
 								selected: true
 							},
 							{

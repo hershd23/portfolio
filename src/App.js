@@ -15,6 +15,8 @@ import Carousel from './components/Carousel';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
+import resume from './assets/resume/Hersh_Dhillon_Resume.pdf';
+
 import profile from './assets/images/profile.jpeg';
 
 class App extends React.Component {
@@ -37,8 +39,12 @@ class App extends React.Component {
         text : 'Have a look at my projects. Click on a card to reveal more information.'
       },
       skills:{
-        title: 'Skills and Achievements',
+        title: 'Skills and Awards',
         text : 'A pretty dynamic list of my skills and achievements. Will grow as I keep learning!'
+      },
+      blogs:{
+        title: 'Blogs',
+        text : 'A list of blogs I have written.'
       },
       contact:{
         title: 'Socials',
@@ -62,6 +68,7 @@ class App extends React.Component {
                 <Link smooth className="nav-link" to='/portfolio#projects'>Projects</Link>
                 <Link smooth className="nav-link" to='/portfolio#about'>About</Link>
                 <Link smooth className="nav-link" to='/portfolio#skills'>Skills</Link>
+                <Link smooth className="nav-link" to='/portfolio#blogs'>Blogs</Link>
                 <Link smooth className="nav-link" to='/portfolio#contact'>Contact</Link>
                 
               </Nav>
@@ -99,27 +106,27 @@ class App extends React.Component {
           <Container fluid = {true} className=" bg-light">
             <Hero title = {this.state.about.title} />
             <Row>
-            <Col sm = {4}>
-              <Image className = "profile-image" src = {profile} thumbnail/>
-            </Col>
-            <Col sm = {8}>
-            <Content>
-                <p>Hi, I am Hersh. I am interested in all things tech, sports and politics. I am currently exploring developing mobile applications in flutter and AI in sports. Here is a summary of my experience and POR's</p>
-                <b>Work Experience</b>
-                  <ul>
-                    <li>Software Engineering Intern :- <b>D.E. Shaw and Co (Apr-May 2020)</b></li>
-                    <li>Research Intern (NLP) :- <b>IIT Kharagpur (May-Jun 2019)</b></li>
-                  </ul>
+            
+              <Content>
+                  <p>Hi, I am Hersh. I am interested in all things tech, sports and politics. I am currently exploring developing mobile applications in flutter, AI in hireability and AI in sports.</p> 
+                  <p><a href={resume} target="_blank" rel="noopener noreferrer">My Resume</a></p>
+                  <p> Here is a summary of my experience and POR's</p>
+                  <b>Work Experience</b>
+                    <ul>
+                      <li>Software Engineering Intern :- <b>D.E. Shaw and Co (Apr-May 2020)</b></li>
+                      <li>Research Intern (NLP) :- <b>IIT Kharagpur (May-Jun 2019)</b></li>
+                    </ul>
 
-                <b>Positions of Responsibility</b>
-                  <ul>
-                    <li>Current Mentor and Co-Founder :- <b>Debating Society IIT Ropar</b></li>
-                    <li>Current Core Team Member :- <b>AI Community IIT Ropar</b></li>
-                    <li>Former Representative :- <b>Debating Society IIT Ropar</b></li>
-                    <li>Former Coordinator :- <b>Coding Club IIT Ropar</b></li>
-                  </ul>
-            </Content>
-            </Col>
+                  <b>Positions of Responsibility</b>
+                    <ul>
+                      <li>Current Mentor and Co-Founder :- <b>Debating Society IIT Ropar</b></li>
+                      <li>Current Core Team Member :- <b>AI Community IIT Ropar</b></li>
+                      <li>Former Representative :- <b>Debating Society IIT Ropar</b></li>
+                      <li>Former Coordinator :- <b>Coding Club IIT Ropar</b></li>
+                    </ul>
+              </Content>
+            
+            
             </Row>
             <Container fluid={true} className = "py-5"></Container>
           </Container>
@@ -160,8 +167,22 @@ class App extends React.Component {
             </Container>
           </div>
 
-          <div id = "contact">
+          <div id = "blogs">
             <Container fluid = {true} className = "bg-light">
+              <Hero title = {this.state.blogs.title} text = {this.state.blogs.text} />
+
+              <Content>
+                <h5>
+                  <ul>
+                  <li>Fantasy Premier League 19/20, a review - Part 1, Basics  :-  <a href="https://medium.com/@2017csb1079/fantasy-premier-league-19-20-a-review-part-1-basics-167e610e229">Read Here</a> </li>
+                  </ul>
+                </h5>
+              </Content>
+            </Container>
+          </div>
+
+          <div id = "contact">
+            <Container fluid = {true}>
               <Hero title = {this.state.contact.title} text = {this.state.contact.text} />
               
               

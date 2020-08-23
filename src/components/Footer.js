@@ -7,7 +7,7 @@ function Footer() {
 
 	return(
 		<footer >
-			<Container fluid = {true}>
+			<Container fluid = {true} className = "bg-light">
 				<Row className="border-top justify-content-between p-3">
 					<Col className = "p-0" md={3} sm={12}>
 							To copy the template click<a href="https://github.com/hershd23/portfolio" rel="noopener noreferrer" target="_blank"> here</a>
