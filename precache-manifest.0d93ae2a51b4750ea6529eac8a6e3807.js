@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d131b32a230f8a71622c46f112e37e5",
+    "revision": "71f1cc765ff6d4b9a6b731556817e98c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "73d2fd2469e8e412fdeb",
+    "revision": "6ec1ae1be303861164be",
     "url": "/portfolio/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "e46d67ffb2286a94c3d1",
+    "revision": "a0039052f7dd3de9e3c0",
     "url": "/portfolio/static/css/main.e0a58c76.chunk.css"
   },
   {
-    "revision": "73d2fd2469e8e412fdeb",
-    "url": "/portfolio/static/js/2.b55f8b26.chunk.js"
+    "revision": "6ec1ae1be303861164be",
+    "url": "/portfolio/static/js/2.70b0e2f2.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.b55f8b26.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.70b0e2f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e46d67ffb2286a94c3d1",
-    "url": "/portfolio/static/js/main.f7295ca3.chunk.js"
+    "revision": "a0039052f7dd3de9e3c0",
+    "url": "/portfolio/static/js/main.2de04a81.chunk.js"
   },
   {
     "revision": "f4500de3db46c51f41ef",
     "url": "/portfolio/static/js/runtime-main.95f49b6d.js"
+  },
+  {
+    "revision": "77a91db2f0b2baf525edf30676325c78",
+    "url": "/portfolio/static/media/Hersh_Dhillon_Resume.77a91db2.pdf"
   },
   {
     "revision": "e8fc79cae21814a2fb64a0eda4f54797",
@@ -44,12 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/cjh.cb09152d.png"
   },
   {
+    "revision": "58c47d2159f30fac76c815ca0b4a6ae6",
+    "url": "/portfolio/static/media/map.58c47d21.jpeg"
+  },
+  {
     "revision": "ca703d29c67397f32ec4c4963d78456a",
     "url": "/portfolio/static/media/obj.ca703d29.png"
   },
   {
-    "revision": "c1b96b0921af8e125e7f468ce145a740",
-    "url": "/portfolio/static/media/profile.c1b96b09.jpeg"
+    "revision": "b9462ed82bce0a9fe25279419b416172",
+    "url": "/portfolio/static/media/profile.b9462ed8.jpeg"
   },
   {
     "revision": "88b361602043b38a22f5391c1f8a2944",
