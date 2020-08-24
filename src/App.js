@@ -44,7 +44,7 @@ class App extends React.Component {
       },
       blogs:{
         title: 'Blogs',
-        text : 'A list of blogs I have written.'
+        text : 'A list of blogs I have written. More coming soon'
       },
       contact:{
         title: 'Socials',
