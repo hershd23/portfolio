@@ -28,7 +28,7 @@ class App extends React.Component {
       home:{
         pretitle: 'Hi, I am',
         title: 'Hersh Dhillon,',
-        subTitle: 'a Pre-final year Computer Science undergraduate at IIT Ropar',
+        subTitle: 'a Final year Computer Science undergraduate at IIT Ropar',
         text: "I know Deep Learning, Computer Vision, Natural Language Processing, Web and Mobile app development. I am a blog writer and a public speaker too!"
       },
       about:{
@@ -36,7 +36,7 @@ class App extends React.Component {
       },
       projects: {
         title: 'My Projects',
-        text : 'Have a look at my projects. Click on a card to reveal more information.'
+        text : 'Here are my projects!'
       },
       skills:{
         title: 'Skills and Awards',
