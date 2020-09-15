@@ -7,7 +7,6 @@ import Nav from 'react-bootstrap/Nav';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image'
 import './App.css';
 
 import Hero from './components/Hero';
@@ -17,7 +16,6 @@ import Footer from './components/Footer';
 
 import resume from './assets/resume/Hersh_Dhillon_Resume.pdf';
 
-import profile from './assets/images/profile.jpeg';
 
 class App extends React.Component {
 
@@ -128,7 +126,7 @@ class App extends React.Component {
             
             
             </Row>
-            <Container fluid={true} className = "py-5"></Container>
+            <Container fluid={true} className = "py-4"></Container>
           </Container>
           </div>
 
@@ -164,6 +162,7 @@ class App extends React.Component {
 							</Col>
               
               </Row>
+              <Container fluid={true} className = "py-4"></Container>
             </Container>
           </div>
 
@@ -178,7 +177,9 @@ class App extends React.Component {
                   </ul>
                 </h5>
               </Content>
+              <Container fluid={true} className = "py-4"></Container>
             </Container>
+            
           </div>
 
           <div id = "contact">
@@ -186,14 +187,10 @@ class App extends React.Component {
               <Hero title = {this.state.contact.title} text = {this.state.contact.text} />
               
               
-							<div className = "social-links">
-								<center>
-                  <h4> 
-                    <b>Email:- </b>
-                    <a href="mailto:hershdhillon23@gmail.com" rel="noopener noreferrer" target="_blank">
-                      hershdhillon23@gmail.com 
-                    </a>
-                  </h4>
+							<div className = "social-links" style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+                  <a href="mailto:hershdhillon23@gmail.com" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-envelope-square"  aria-hidden="true"/>
+                  </a>
 									<a href="https://www.linkedin.com/in/hersh-dhillon/" rel="noopener noreferrer" target="_blank">
 											<i className="fa fa-linkedin-square"  aria-hidden="true"/>
 									</a>
@@ -206,7 +203,6 @@ class App extends React.Component {
 										<i class="fa fa-twitter-square" aria-hidden="true"></i>
 									</a>
 
-								</center>
 							</div>
 							<Container fluid={true} className = "py-4"></Container>
             </Container>

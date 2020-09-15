@@ -10,7 +10,7 @@ import can from '../assets/images/can.png';
 import obj from '../assets/images/obj.png';
 import risc from '../assets/images/risc.jpg';
 import bow from '../assets/images/bow.png';
-import map from '../assets/images/map.jpeg'
+import cmap from '../assets/images/cm2.png';
 
 class Carousel extends React.Component {
 
@@ -30,7 +30,7 @@ class Carousel extends React.Component {
 								id: 5,
 								title: 'CoronaMap',
 								subTitle: 'Live cornavirus visualizations',
-								imgSrc: map,
+								imgSrc: cmap,
 								link: 'https://hershd23.github.io/CoronaMap/',
 								selected: true
 							},
