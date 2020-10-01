@@ -106,17 +106,19 @@ class App extends React.Component {
             <Row>
             
               <Content>
-                  <p>Hi, I am Hersh. I am interested in all things tech, sports and politics. I am currently exploring developing mobile applications in flutter, AI in hireability and AI in sports.</p> 
+                  <p>Hi, I am Hersh. I am interested in all things tech, sports and politics. I am currently working on privacy preserving AI, Backend Web Development and AI in sports.</p> 
                   <p><a href={resume} target="_blank" rel="noopener noreferrer">My Resume</a></p>
                   <p> Here is a summary of my experience and POR's</p>
                   <b>Work Experience</b>
                     <ul>
+                      <li>Team NLP Core Dev, SyferText :- <b>OpenMined (August 2020 to Present)</b></li>
                       <li>Software Engineering Intern :- <b>D.E. Shaw and Co (Apr-May 2020)</b></li>
                       <li>Research Intern (NLP) :- <b>IIT Kharagpur (May-Jun 2019)</b></li>
                     </ul>
 
                   <b>Positions of Responsibility</b>
                     <ul>
+                      <li>Co-Founder :- <b>Open Source Chapter IIT Ropar</b></li>
                       <li>Current Mentor and Co-Founder :- <b>Debating Society IIT Ropar</b></li>
                       <li>Current Core Team Member :- <b>AI Community IIT Ropar</b></li>
                       <li>Former Representative :- <b>Debating Society IIT Ropar</b></li>
@@ -142,7 +144,7 @@ class App extends React.Component {
 							</center>
               <Content>
                 <p><b>Programming Languages :- </b> C, C++, Java, JavaScript, Python, Dart</p>
-                <p><b>Frameworks and Libraries :- </b>Pytorch, Tensorflow, ReactJS,  Django, Pandas, Numpy, Scipy, Sklearn, Matplotlib, OpenFace, Keras, Fast-Ai </p>
+                <p><b>Frameworks and Libraries :- </b>Pytorch, Tensorflow, ReactJS, Django, Pandas, Numpy, Scipy, Sklearn, Matplotlib, OpenFace, Keras, Fast-Ai, PostgreSQL </p>
                 <br />
               </Content>
 
