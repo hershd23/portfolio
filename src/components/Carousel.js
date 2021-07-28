@@ -70,6 +70,7 @@ class Carousel extends React.Component {
 		}
 	}
 
+	// NOTE :- Use this function to create some onClick effect
 	handleCardClick =(id, card) => {
 		console.log(id)
 

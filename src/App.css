@@ -53,6 +53,13 @@
   align-content: center;
 }
 .social-links i {
+  color: whitesmoke;
+  font-size: 4em;
+  padding: 15px;
+  margin: 20px, 0px;
+}
+
+.social-links-dark i {
   color: black;
   font-size: 4em;
   padding: 15px;
