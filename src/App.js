@@ -32,7 +32,7 @@ class App extends React.Component {
         title: 'About Me'
       },
       experiences: {
-        title: 'Experiences',
+        title: 'Work Ex',
         text: 'Places where I have worked'
       },
       projects: {

@@ -7,7 +7,7 @@ import Content from '../components/Content';
 function Contact (props) {
   return (
     <div id = "contact">
-			<Container fluid = {true}>
+			<Container fluid = {true} className=" bg-light">
 				<Hero title = {props.title} text = {props.text} />
 				
 				

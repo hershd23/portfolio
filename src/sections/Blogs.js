@@ -17,7 +17,19 @@ function Blogs (props) {
 								<li>
 									<h5>
 										Fantasy Premier League 19/20, a review - Part 1, Basics  :-  
-										<a href="https://medium.com/@2017csb1079/fantasy-premier-league-19-20-a-review-part-1-basics-167e610e229">Read Here</a> 
+										<a href="https://medium.com/@2017csb1079/fantasy-premier-league-19-20-a-review-part-1-basics-167e610e229" target="_blank" rel="noopener noreferrer">Read Here</a> 
+									</h5>
+								</li>
+                <li>
+									<h5>
+										Modelling Football Data and Assigning Player Ratings (VAEP Model)  :-  
+										<a href="https://www.youtube.com/watch?v=eROyFUy2W5g" target="_blank" rel="noopener noreferrer">Watch Here</a> 
+									</h5>
+								</li>
+                <li>
+									<h5>
+										Premier League, Metric Over/Underperformance  :-  
+										<a href="https://twitter.com/DhillonHersh/status/1290025606168506369" target="_blank" rel="noopener noreferrer">Read Here</a> 
 									</h5>
 								</li>
 							</ul>
