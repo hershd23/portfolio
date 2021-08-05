@@ -68,10 +68,10 @@ function About (props) {
 						<p>
 							The Debating Society was the most successful initiative that I took.
 							I really love teaching (and mentoring) what I know in the fields I am interested in and on those principles 
-							I took other initiatives (with less success) like Co-Founded the Student AI Community at IIT Ropar and 
-							Placing Engineers a discord server to crowdsource job openings during the difficult situation
-							when Covid had resulted in companies freeing their hiring. We crowdsourced entry level job postings and 
-							the senior members of the group also reviewed resumes of the people looking for jobs.
+							I took other initiatives (with mixed success) like Co-Founded the Student AI Community at IIT Ropar, 
+							Open Source Society IIT Ropar and Placing Engineers a discord server to crowdsource job openings during the 
+							difficult times when Covid had resulted in companies freeing their hiring. We crowdsourced entry level job 
+							postings and the senior members of the group also reviewed resumes of the people looking for jobs.
 						</p>
 
 						<p>
