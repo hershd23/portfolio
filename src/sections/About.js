@@ -70,7 +70,7 @@ function About (props) {
 							I really love teaching (and mentoring) what I know in the fields I am interested in and on those principles 
 							I took other initiatives (with mixed success) like Co-Founded the Student AI Community at IIT Ropar, 
 							Open Source Society IIT Ropar and Placing Engineers a discord server to crowdsource job openings during the 
-							difficult times when Covid had resulted in companies freeing their hiring. We crowdsourced entry level job 
+							difficult times when Covid had resulted in companies freezing their hiring. We crowdsourced entry level job 
 							postings and the senior members of the group also reviewed resumes of the people looking for jobs.
 						</p>
 
