@@ -1,17 +1,17 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
+import React from "react";
+import Container from "react-bootstrap/Container";
 
-import Hero from '../components/Hero';
-import Carousel from '../components/Carousel';
+import Hero from "../components/Hero";
+import Carousel from "../components/Carousel";
 
-function Projects (props) {
+function Projects(props) {
   return (
-		<div id = "projects">
-			<Container fluid = {true}>
-				<Hero title = {props.title} text = {props.text}/>
-				<Carousel />
-			</Container>
-		</div>
+    <div id="projects">
+      <Container fluid={true}>
+        <Hero title={props.title} text={props.text} />
+        <Carousel />
+      </Container>
+    </div>
   );
 }
 
