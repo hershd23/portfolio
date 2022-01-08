@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4aaa30cac60f7fa4e7c188a0661fd2a",
+    "revision": "4f7ada742139bf0e9e98844d27b044a5",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.23fea534.chunk.css"
   },
   {
-    "revision": "e8c1c56e5e350af46f23",
-    "url": "/portfolio/static/css/main.9fc55259.chunk.css"
+    "revision": "5b59608dd794fdda5dbb",
+    "url": "/portfolio/static/css/main.532b65a0.chunk.css"
   },
   {
     "revision": "44d8fa0489abf56cb295",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.aaa61230.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8c1c56e5e350af46f23",
-    "url": "/portfolio/static/js/main.7c3cf440.chunk.js"
+    "revision": "5b59608dd794fdda5dbb",
+    "url": "/portfolio/static/js/main.67cd3c57.chunk.js"
   },
   {
     "revision": "f4500de3db46c51f41ef",
     "url": "/portfolio/static/js/runtime-main.95f49b6d.js"
   },
   {
-    "revision": "26b454a9858dbb7c3b71459780880b38",
-    "url": "/portfolio/static/media/Hersh_Dhillon_2021_Resume.26b454a9.pdf"
+    "revision": "28683cb9ea07ff8bb2c44d089ce43b68",
+    "url": "/portfolio/static/media/Hersh_Dhillon_2022_Resume.28683cb9.pdf"
   },
   {
     "revision": "e8fc79cae21814a2fb64a0eda4f54797",
