@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-import resume from "../assets/resume/Hersh_Dhillon_2021_Resume.pdf";
+import resume from "../assets/resume/Hersh_Dhillon_2022_Resume.pdf";
 
 /*
 NOTE :- Could do something to check if a particular object 
