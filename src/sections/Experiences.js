@@ -19,16 +19,46 @@ class Experiences extends React.Component {
         {
           id: "flipkart",
           org: "Flipkart",
-          role: "Software Development Engineer 1",
+          role: "Software Development Engineer 1 - IAAS",
           duration: "June 2021 - Present",
           link: "https://flipkart.com",
           description: [
             {
-              text: " I work as an SDE 1 in the IAAS DCIM team in Central Platforms Group at Flipkart.",
+              text: " I work as an SDE 1 in the IAAS (Infrastructure As A Service) team in Central Platforms Group at Flipkart.",
             },
             {
-              text: " Currently working on improving Infrastructure Asset Management and Monitoring for Flipkart Cloud Platform.",
+              text: " Currently working on integrating a new Asset Management System and Zero-touch Provisioning stack to Flipkart's Private Cloud offering.\
+                      The new asset management system integration leads to 2-4x improvement in response times. The fully automatic Zero-Touch Provisioning \
+                      system successfully removes the needs for any engineer in the loop while provisioning servers and providing compute capacity to all \
+                      teams at Flipkart",
             },
+            {
+              text: "I have performed oncall duties for the IAAS team, resolving capacity and compute issues for teams at Flipkart.",
+            },
+          ],
+        },
+        {
+          id: "layer5",
+          org: "Layer5",
+          role: "Open Source Collaborator",
+          duration: "December 2021 - Present",
+          link: "https://layer5.io/",
+          description: [
+            {
+              text: " Active Contributor to Meshery and Service Mesh Performance projects",
+            },
+            {
+              text: "Built Helm charts for the deployment of the Cilium Service Mesh with Meshery as the management plane",
+            },
+            {
+              text: "Helped build Docker Desktop Extension</a> for Meshery where the application runs and serves Service Meshes\
+               inside of the Docker Desktop Linux VM. ",
+            },
+            {
+              text: "Helped create the Service Mesh Performance reusable action for Self-Hosted runners\
+              (personal servers instead of github runners) to test performance of various Service meshes on load tests",
+            },
+            { text: " Tech Stack :- Docker, Kubernetes, Helm, Go, Github Actions" },
           ],
         },
         {
@@ -36,7 +66,7 @@ class Experiences extends React.Component {
           org: "OpenMined",
           role: "Core Dev Cognition Engineering and Technical Mentor",
           duration: "August 2020 - May 2021",
-          link: "https://flipkart.com",
+          link: "https://github.com/OpenMined",
           description: [
             {
               text: " Active Contributor and Team NLP Member of OpenMined’s SyferText, a Federated Learning library for NLP built on top of PySyft",
@@ -55,7 +85,7 @@ class Experiences extends React.Component {
           org: "Infurnia",
           role: "Software Engineering Intern",
           duration: "Janurary 2021 - May 2021",
-          link: "https://flipkart.com",
+          link: "https://www.infurnia.com/",
           description: [
             {
               text: " Developed desktop design application for Infurnia from scratch. This involved",
@@ -77,7 +107,7 @@ class Experiences extends React.Component {
           org: "D.E. Shaw Group",
           role: "Software Engineering Intern",
           duration: "April 2020 - June 2020",
-          link: "https://flipkart.com",
+          link: "https://www.deshawindia.com/",
           description: [
             {
               text: " Built a rich text editor for LiveDesign. A product of their partner company Schrodinger.",
@@ -96,13 +126,15 @@ class Experiences extends React.Component {
           org: "CNERG Lab, IIT Kharagpur",
           role: "Research Intern, Guide - Dr. Pawan Goyal",
           duration: "May 2019 - July 2019",
-          link: "https://flipkart.com",
+          link: "https://cnerg-iitkgp.github.io/",
           description: [
             {
               text: " Implemented the Collaborative Adversarial Network architecture (Chen et al ACM-2019).",
             },
             {
-              text: " The aim was to use this sentence similarity prediction network to answer product queries on e-commerce websites.",
+              text: " The aim was to use this sentence similarity prediction network to answer product queries on e-commerce websites. \
+              The model achieved 72% accuracy on the self curated product question-answering dataset made from extracting data from the \
+              queries section of Flipkart",
             },
             { text: " Tech Stack :- Python, Pytorch, NLTk" },
           ],

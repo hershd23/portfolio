@@ -24,7 +24,7 @@ class App extends React.Component {
         pretitle: "Hi, I am",
         title: "Hersh Dhillon,",
         subTitle: "Software Development Engineer I at Flipkart",
-        text: "Currently focussing on Devops, Cloud Systems and Privacy Preserving AI.",
+        text: "Currently focussing on Devops, Service Meshes, Systems and Privacy Preserving AI.",
       },
       about: {
         title: "About Me",

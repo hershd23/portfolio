@@ -13,7 +13,7 @@ function Card(props) {
         <Row className="justify-content-center px-1">
           <Col md={12} sm={2}>
             {props.item.org && (
-              <h1 className="display-5 font-weight-normal">{props.item.org}</h1>
+              <a href={props.item.link}><h1 className="display-5 font-weight-normal">{props.item.org}</h1></a>
             )}
             {props.item.role && (
               <h3 className="display-5 font-weight-light">{props.item.role}</h3>
