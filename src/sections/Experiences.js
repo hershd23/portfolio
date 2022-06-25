@@ -51,7 +51,7 @@ class Experiences extends React.Component {
               text: "Built Helm charts for the deployment of the Cilium Service Mesh with Meshery as the management plane",
             },
             {
-              text: "Helped build Docker Desktop Extension</a> for Meshery where the application runs and serves Service Meshes"+
+              text: "Helped build Docker Desktop Extension for Meshery where the application runs and serves Service Meshes"+
                "inside of the Docker Desktop Linux VM. ",
             },
             {
