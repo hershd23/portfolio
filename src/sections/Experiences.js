@@ -27,10 +27,10 @@ class Experiences extends React.Component {
               text: " I work as an SDE 1 in the IAAS (Infrastructure As A Service) team in Central Platforms Group at Flipkart.",
             },
             {
-              text: " Currently working on integrating a new Asset Management System and Zero-touch Provisioning stack to Flipkart's Private Cloud offering.\
-                      The new asset management system integration leads to 2-4x improvement in response times. The fully automatic Zero-Touch Provisioning \
-                      system successfully removes the needs for any engineer in the loop while provisioning servers and providing compute capacity to all \
-                      teams at Flipkart",
+              text: " Currently working on integrating a new Asset Management System and Zero-touch Provisioning stack to Flipkart's Private Cloud offering." +
+                      "The new asset management system integration leads to 2-4x improvement in response times. The fully automatic Zero-Touch Provisioning " +
+                      "system successfully removes the needs for any engineer in the loop while provisioning servers and providing compute capacity to all " +
+                      "teams at Flipkart",
             },
             {
               text: "I have performed oncall duties for the IAAS team, resolving capacity and compute issues for teams at Flipkart.",
@@ -51,12 +51,12 @@ class Experiences extends React.Component {
               text: "Built Helm charts for the deployment of the Cilium Service Mesh with Meshery as the management plane",
             },
             {
-              text: "Helped build Docker Desktop Extension</a> for Meshery where the application runs and serves Service Meshes\
-               inside of the Docker Desktop Linux VM. ",
+              text: "Helped build Docker Desktop Extension</a> for Meshery where the application runs and serves Service Meshes"+
+               "inside of the Docker Desktop Linux VM. ",
             },
             {
-              text: "Helped create the Service Mesh Performance reusable action for Self-Hosted runners\
-              (personal servers instead of github runners) to test performance of various Service meshes on load tests",
+              text: "Helped create the Service Mesh Performance reusable action for Self-Hosted runners" +
+              "(personal servers instead of github runners) to test performance of various Service meshes on load tests",
             },
             { text: " Tech Stack :- Docker, Kubernetes, Helm, Go, Github Actions" },
           ],
@@ -132,9 +132,9 @@ class Experiences extends React.Component {
               text: " Implemented the Collaborative Adversarial Network architecture (Chen et al ACM-2019).",
             },
             {
-              text: " The aim was to use this sentence similarity prediction network to answer product queries on e-commerce websites. \
-              The model achieved 72% accuracy on the self curated product question-answering dataset made from extracting data from the \
-              queries section of Flipkart",
+              text: " The aim was to use this sentence similarity prediction network to answer product queries on e-commerce websites." +
+              "The model achieved 72% accuracy on the self curated product question-answering dataset made from extracting data from the" +
+              "queries section of Flipkart",
             },
             { text: " Tech Stack :- Python, Pytorch, NLTk" },
           ],

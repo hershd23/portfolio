@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 import Hero from "../components/Hero";
-import Content from "../components/Content";
 
 function Contact(props) {
   return (

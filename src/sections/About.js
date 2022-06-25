@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { HashLink as Link } from "react-router-hash-link";
 
 import Hero from "../components/Hero";

@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 import Hero from "../components/Hero";
-import Content from "../components/Content";
 
 function Skills(props) {
   return (
