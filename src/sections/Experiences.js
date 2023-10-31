@@ -17,20 +17,42 @@ class Experiences extends React.Component {
       text: props.text,
       items: [
         {
+          id: "GT Database Lab",
+          org: "GT Database Lab",
+          role: "Member GT Database Lab (EvaDB)",
+          duration: "August 2023 - Present",
+          link: "https://github.com/georgia-tech-db/evadb",
+          description: [
+            {
+              text: " Working on EvaDB[LINK] a database to build AI applications with just a few lines of code, under Prof. Joy Arulraj.",
+            },
+            {
+              text: "Recognized for my contributions to the 0.3.4 release[LINK] by rewriting the parser implementation for custom functions in EvaDB. " 
+            },
+            {
+              text: "esigned and developed configuration management in EvaDB to resemble the SQL config operations supported by open-source DBs like postgres.",
+            },
+          ],
+        },
+        {
           id: "flipkart",
           org: "Flipkart",
-          role: "Software Development Engineer 1 - IAAS",
-          duration: "June 2021 - Present",
+          role: "Software Development Engineer 2 - IAAS",
+          duration: "June 2021 - August 2023",
           link: "https://flipkart.com",
           description: [
             {
-              text: " I work as an SDE 1 in the IAAS (Infrastructure As A Service) team in Central Platforms Group at Flipkart.",
+              text: " I work as an SDE 2 in the IAAS (Infrastructure As A Service) team in Central Platforms Group at Flipkart.",
             },
             {
-              text: " Currently working on integrating a new Asset Management System and Zero-touch Provisioning stack to Flipkart's Private Cloud offering." +
-                      "The new asset management system integration leads to 2-4x improvement in response times. The fully automatic Zero-Touch Provisioning " +
-                      "system successfully removes the needs for any engineer in the loop while provisioning servers and providing compute capacity to all " +
-                      "teams at Flipkart",
+              text: "Led the Asset Management and Reporting project. Designed, developed and maintained the highly available" +
+                    "Infra Management stack. This new stack performs up to 4x faster on server onboarding benchmarks. Developed" +
+                    "the reporting infrastructure to provide visibility fine-grained visibility into hardware maintenance." +
+                    "Developed a Zero-Touch-Provisioning (ZTP) server orchestration service to save on SRE bandwidth which led" +
+                    "to a 50x speedup in provisioning for a batch of 1000 servers. Designed and implemented automatic workflows" +
+                    "for Network Attached Storage devices for the ZTP service. Performed on-call duties for IaaS and the whole of" +
+                    "FK cloud. Mentored project interns and received an Exceeds Expectations rating in both the performance" +
+                    "reviews and got promoted to the SWE-II level.",
             },
             {
               text: "I have performed oncall duties for the IAAS team, resolving capacity and compute issues for teams at Flipkart.",

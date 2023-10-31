@@ -11,12 +11,30 @@ import obj from "../assets/images/obj.png";
 import risc from "../assets/images/risc.jpg";
 import bow from "../assets/images/bow.png";
 import cmap from "../assets/images/cm2.png";
+import tree from "../assets/images/tree-cont2cat.png";
+import eva from "../assets/images/eva.png";
 
 class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       items: [
+        {
+          id: 7,
+          title: "EvaDB",
+          subTitle: "Database system for AI-powered apps",
+          imgSrc: eva,
+          link: "https://github.com/georgia-tech-db/evadb/",
+          selected: true,
+        },
+        {
+          id: 6,
+          title: "Personality and Behaviour on Hirability",
+          subTitle: "Paper accepted to ICVGIP 2023",
+          imgSrc: tree,
+          link: "https://arxiv.org/pdf/2006.12041.pdf",
+          selected: true,
+        },
         {
           id: 4,
           title: "Characterizing Job Hirability",

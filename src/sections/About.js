@@ -20,7 +20,8 @@ function About(props) {
         <Row>
           <Content>
             <p>
-              Hi, I am Hersh. I recently graduated from{" "}
+              Hi, I am Hersh. I am a graduate student in CS at Georgia Institute of Technology. 
+              I did my undergrad from{" "}
               <b>Indian Institute of Technology (IIT) Ropar</b>, where I
               completed my <b>Bachelors in Computer Science and Engineering</b>.
               I completed High School from{" "}
@@ -60,7 +61,7 @@ function About(props) {
               Machine Learning, Deep Learning, Web and Mobile application
               Development and Desktop application development. The problems I am
               currently focused upon are those of{" "}
-              <b>Privacy Preserving Artificial Intelligence</b> and{" "}
+              <b>Database to support AI applications and building complex pipelines using SQL syntax</b> and{" "}
               <b>Managing and Monitoring Infrastructure</b>.
             </p>
 
