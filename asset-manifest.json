@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.532b65a0.chunk.css",
-    "main.js": "/portfolio/static/js/main.175819fd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.175819fd.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.95f49b6d.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.95f49b6d.js.map",
-    "static/css/2.23fea534.chunk.css": "/portfolio/static/css/2.23fea534.chunk.css",
-    "static/js/2.4a532d23.chunk.js": "/portfolio/static/js/2.4a532d23.chunk.js",
-    "static/js/2.4a532d23.chunk.js.map": "/portfolio/static/js/2.4a532d23.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ecd3d56d.css",
+    "main.js": "/portfolio/static/js/main.b7f9223f.js",
+    "static/media/tree-cont2cat.png": "/portfolio/static/media/tree-cont2cat.f4412c4e0b5fa9845069.png",
+    "static/media/cm2.png": "/portfolio/static/media/cm2.0e6e6e63c77fda2622cd.png",
+    "static/media/cjh.png": "/portfolio/static/media/cjh.ad472cd89c188db5a696.png",
+    "static/media/HershDhillonResume.pdf": "/portfolio/static/media/HershDhillonResume.ef562056a1c0d601670a.pdf",
+    "static/media/bg3.jpeg": "/portfolio/static/media/bg3.cd7d6963064ff800b183.jpeg",
+    "static/media/obj.png": "/portfolio/static/media/obj.80db33577eb7a37e6d68.png",
+    "static/media/can.png": "/portfolio/static/media/can.ce9d3771f1c5320f64a8.png",
+    "static/media/risc.jpg": "/portfolio/static/media/risc.d654088adfe84ec0cae0.jpg",
+    "static/media/eva.png": "/portfolio/static/media/eva.6566915ab1b9a5e9132b.png",
+    "static/media/bow.png": "/portfolio/static/media/bow.db673a2f6ba98e75dc65.png",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.54cada3b6e19d7afa8f4ae11382e7508.js": "/portfolio/precache-manifest.54cada3b6e19d7afa8f4ae11382e7508.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.23fea534.chunk.css.map": "/portfolio/static/css/2.23fea534.chunk.css.map",
-    "static/css/main.532b65a0.chunk.css.map": "/portfolio/static/css/main.532b65a0.chunk.css.map",
-    "static/js/2.4a532d23.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4a532d23.chunk.js.LICENSE.txt",
-    "static/media/Hersh_Dhillon_2022_Resume.pdf": "/portfolio/static/media/Hersh_Dhillon_2022_Resume.28683cb9.pdf",
-    "static/media/App.css": "/portfolio/static/media/bg3.e8fc79ca.jpeg",
-    "static/media/bow.png": "/portfolio/static/media/bow.b29b8aaf.png",
-    "static/media/can.png": "/portfolio/static/media/can.6a63508a.png",
-    "static/media/cjh.png": "/portfolio/static/media/cjh.cb09152d.png",
-    "static/media/cm2.png": "/portfolio/static/media/cm2.525756d8.png",
-    "static/media/obj.png": "/portfolio/static/media/obj.ca703d29.png",
-    "static/media/risc.jpg": "/portfolio/static/media/risc.88b36160.jpg"
+    "main.ecd3d56d.css.map": "/portfolio/static/css/main.ecd3d56d.css.map",
+    "main.b7f9223f.js.map": "/portfolio/static/js/main.b7f9223f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.95f49b6d.js",
-    "static/css/2.23fea534.chunk.css",
-    "static/js/2.4a532d23.chunk.js",
-    "static/css/main.532b65a0.chunk.css",
-    "static/js/main.175819fd.chunk.js"
+    "static/css/main.ecd3d56d.css",
+    "static/js/main.b7f9223f.js"
   ]
 }
